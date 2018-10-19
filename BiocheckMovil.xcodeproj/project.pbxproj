@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FD76DFCB65B53E4364D909F /* Pods_BiocheckMovilTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684764042FEF6E0EABA4A52A /* Pods_BiocheckMovilTests.framework */; };
+		45A499D6853C49FFCBDE0221 /* Pods_BiocheckMovil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A481C590EF669BBB691F4B /* Pods_BiocheckMovil.framework */; };
+		911FBC4220A62A4200B4A988 /* Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911FBC4120A62A4200B4A988 /* Check.swift */; };
+		911FF2FB20879E3800115FC7 /* Rout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911FF2FA20879E3800115FC7 /* Rout.swift */; };
+		911FF2FD2087E98500115FC7 /* RoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911FF2FC2087E98500115FC7 /* RoutViewController.swift */; };
+		9121C1A720ACA2FD006CB8C6 /* EnrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9121C1A620ACA2FD006CB8C6 /* EnrollViewController.swift */; };
+		9121C1A920ACA75A006CB8C6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9121C1A820ACA75A006CB8C6 /* Request.swift */; };
+		91229439208161350085C63F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91229438208161350085C63F /* AppDelegate.swift */; };
+		91229440208161350085C63F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122943E208161350085C63F /* Main.storyboard */; };
+		91229442208161350085C63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91229441208161350085C63F /* Assets.xcassets */; };
+		91229445208161350085C63F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91229443208161350085C63F /* LaunchScreen.storyboard */; };
+		91229450208161350085C63F /* BiocheckMovilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122944F208161350085C63F /* BiocheckMovilTests.swift */; };
+		9122945B208161360085C63F /* BiocheckMovilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122945A208161360085C63F /* BiocheckMovilUITests.swift */; };
+		9122B2FD20850F7A00D58EC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122B2FC20850F7A00D58EC4 /* LoginViewController.swift */; };
+		9124D3C32090DA2300378362 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124D3C22090DA2300378362 /* Login.swift */; };
+		9124D3C520912C5300378362 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124D3C420912C5300378362 /* MainViewController.swift */; };
+		9125CE0F20AB5B8900DCA320 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9125CE0E20AB5B8900DCA320 /* Media.swift */; };
+		9126B17C2088FDE1001537A8 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126B17B2088FDE1001537A8 /* RecordTableViewController.swift */; };
+		9126B17E2088FE02001537A8 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126B17D2088FE02001537A8 /* RecordTableViewCell.swift */; };
+		9126B1822088FE22001537A8 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126B1812088FE22001537A8 /* Record.swift */; };
+		9132723320B71A0800C006B7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9132723220B71A0800C006B7 /* Podfile */; };
+		9159DAB92118A9EE0071855C /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9159DAB82118A9EE0071855C /* RepeatingTimer.swift */; };
+		91669DC72086AAF8000887E1 /* RoutsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91669DC62086AAF8000887E1 /* RoutsTableViewController.swift */; };
+		91669DC92086AF99000887E1 /* RoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91669DC82086AF99000887E1 /* RoutTableViewCell.swift */; };
+		916D9509208A9B31008D902E /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916D9508208A9B31008D902E /* CheckViewController.swift */; };
+		91E0D950209285B0003BD12B /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E0D94F209285B0003BD12B /* Employee.swift */; };
+		91E0D95220928979003BD12B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E0D95120928979003BD12B /* Location.swift */; };
+		BCD89C83055F1C8E9D2815F6 /* Pods_BiocheckMovilUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA950E7504A25BAA8D9202D /* Pods_BiocheckMovilUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9122944C208161350085C63F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9122942D208161350085C63F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91229434208161350085C63F;
+			remoteInfo = BiocheckMovil;
+		};
+		91229457208161360085C63F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9122942D208161350085C63F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91229434208161350085C63F;
+			remoteInfo = BiocheckMovil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DA950E7504A25BAA8D9202D /* Pods_BiocheckMovilUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiocheckMovilUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5922AF74B1573CD1C5E17A4E /* Pods-BiocheckMovilTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiocheckMovilTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiocheckMovilTests/Pods-BiocheckMovilTests.release.xcconfig"; sourceTree = "<group>"; };
+		62A481C590EF669BBB691F4B /* Pods_BiocheckMovil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiocheckMovil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		684764042FEF6E0EABA4A52A /* Pods_BiocheckMovilTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiocheckMovilTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF688948CCBB1646A00E55A /* Pods-BiocheckMovil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiocheckMovil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiocheckMovil/Pods-BiocheckMovil.debug.xcconfig"; sourceTree = "<group>"; };
+		8EA2AC6ABD353399D7F625F9 /* Pods-BiocheckMovilUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiocheckMovilUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiocheckMovilUITests/Pods-BiocheckMovilUITests.release.xcconfig"; sourceTree = "<group>"; };
+		911FBC4120A62A4200B4A988 /* Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check.swift; sourceTree = "<group>"; };
+		911FF2FA20879E3800115FC7 /* Rout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rout.swift; sourceTree = "<group>"; };
+		911FF2FC2087E98500115FC7 /* RoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutViewController.swift; sourceTree = "<group>"; };
+		9121C1A620ACA2FD006CB8C6 /* EnrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollViewController.swift; sourceTree = "<group>"; };
+		9121C1A820ACA75A006CB8C6 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		91229435208161350085C63F /* BiocheckMovil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiocheckMovil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91229438208161350085C63F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9122943F208161350085C63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91229441208161350085C63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91229444208161350085C63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91229446208161350085C63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9122944B208161350085C63F /* BiocheckMovilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiocheckMovilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9122944F208161350085C63F /* BiocheckMovilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiocheckMovilTests.swift; sourceTree = "<group>"; };
+		91229451208161350085C63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91229456208161360085C63F /* BiocheckMovilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiocheckMovilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9122945A208161360085C63F /* BiocheckMovilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiocheckMovilUITests.swift; sourceTree = "<group>"; };
+		9122945C208161360085C63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9122B2FC20850F7A00D58EC4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9124D3C22090DA2300378362 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		9124D3C420912C5300378362 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9125CE0E20AB5B8900DCA320 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		9126B17B2088FDE1001537A8 /* RecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
+		9126B17D2088FE02001537A8 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		9126B1812088FE22001537A8 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		9132723220B71A0800C006B7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9159DAB82118A9EE0071855C /* RepeatingTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingTimer.swift; sourceTree = "<group>"; };
+		91669DC62086AAF8000887E1 /* RoutsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutsTableViewController.swift; sourceTree = "<group>"; };
+		91669DC82086AF99000887E1 /* RoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutTableViewCell.swift; sourceTree = "<group>"; };
+		916D9508208A9B31008D902E /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		91E0D94F209285B0003BD12B /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		91E0D95120928979003BD12B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A2DECF5A75B6AB93A163C190 /* Pods-BiocheckMovilTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiocheckMovilTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiocheckMovilTests/Pods-BiocheckMovilTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFF3FC60AA2B6BAA87C65F37 /* Pods-BiocheckMovilUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiocheckMovilUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiocheckMovilUITests/Pods-BiocheckMovilUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE3BAFEB233202750B82F159 /* Pods-BiocheckMovil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiocheckMovil.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiocheckMovil/Pods-BiocheckMovil.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91229432208161350085C63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A499D6853C49FFCBDE0221 /* Pods_BiocheckMovil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91229448208161350085C63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD76DFCB65B53E4364D909F /* Pods_BiocheckMovilTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91229453208161350085C63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD89C83055F1C8E9D2815F6 /* Pods_BiocheckMovilUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22183DC2B914BF1D48DD87D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62A481C590EF669BBB691F4B /* Pods_BiocheckMovil.framework */,
+				684764042FEF6E0EABA4A52A /* Pods_BiocheckMovilTests.framework */,
+				4DA950E7504A25BAA8D9202D /* Pods_BiocheckMovilUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81CDC48BFCFA3A8A31113156 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BF688948CCBB1646A00E55A /* Pods-BiocheckMovil.debug.xcconfig */,
+				EE3BAFEB233202750B82F159 /* Pods-BiocheckMovil.release.xcconfig */,
+				A2DECF5A75B6AB93A163C190 /* Pods-BiocheckMovilTests.debug.xcconfig */,
+				5922AF74B1573CD1C5E17A4E /* Pods-BiocheckMovilTests.release.xcconfig */,
+				AFF3FC60AA2B6BAA87C65F37 /* Pods-BiocheckMovilUITests.debug.xcconfig */,
+				8EA2AC6ABD353399D7F625F9 /* Pods-BiocheckMovilUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9122942C208161350085C63F = {
+			isa = PBXGroup;
+			children = (
+				9132723220B71A0800C006B7 /* Podfile */,
+				91229437208161350085C63F /* BiocheckMovil */,
+				9122944E208161350085C63F /* BiocheckMovilTests */,
+				91229459208161360085C63F /* BiocheckMovilUITests */,
+				91229436208161350085C63F /* Products */,
+				81CDC48BFCFA3A8A31113156 /* Pods */,
+				22183DC2B914BF1D48DD87D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91229436208161350085C63F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91229435208161350085C63F /* BiocheckMovil.app */,
+				9122944B208161350085C63F /* BiocheckMovilTests.xctest */,
+				91229456208161360085C63F /* BiocheckMovilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91229437208161350085C63F /* BiocheckMovil */ = {
+			isa = PBXGroup;
+			children = (
+				91229438208161350085C63F /* AppDelegate.swift */,
+				9124D3C22090DA2300378362 /* Login.swift */,
+				9122B2FC20850F7A00D58EC4 /* LoginViewController.swift */,
+				9121C1A620ACA2FD006CB8C6 /* EnrollViewController.swift */,
+				9122943E208161350085C63F /* Main.storyboard */,
+				9124D3C420912C5300378362 /* MainViewController.swift */,
+				911FBC4120A62A4200B4A988 /* Check.swift */,
+				916D9508208A9B31008D902E /* CheckViewController.swift */,
+				91E0D94F209285B0003BD12B /* Employee.swift */,
+				91E0D95120928979003BD12B /* Location.swift */,
+				9126B1812088FE22001537A8 /* Record.swift */,
+				9126B17D2088FE02001537A8 /* RecordTableViewCell.swift */,
+				9126B17B2088FDE1001537A8 /* RecordTableViewController.swift */,
+				911FF2FA20879E3800115FC7 /* Rout.swift */,
+				911FF2FC2087E98500115FC7 /* RoutViewController.swift */,
+				91669DC82086AF99000887E1 /* RoutTableViewCell.swift */,
+				91669DC62086AAF8000887E1 /* RoutsTableViewController.swift */,
+				91229441208161350085C63F /* Assets.xcassets */,
+				91229443208161350085C63F /* LaunchScreen.storyboard */,
+				91229446208161350085C63F /* Info.plist */,
+				9125CE0E20AB5B8900DCA320 /* Media.swift */,
+				9121C1A820ACA75A006CB8C6 /* Request.swift */,
+				9159DAB82118A9EE0071855C /* RepeatingTimer.swift */,
+			);
+			path = BiocheckMovil;
+			sourceTree = "<group>";
+		};
+		9122944E208161350085C63F /* BiocheckMovilTests */ = {
+			isa = PBXGroup;
+			children = (
+				9122944F208161350085C63F /* BiocheckMovilTests.swift */,
+				91229451208161350085C63F /* Info.plist */,
+			);
+			path = BiocheckMovilTests;
+			sourceTree = "<group>";
+		};
+		91229459208161360085C63F /* BiocheckMovilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9122945A208161360085C63F /* BiocheckMovilUITests.swift */,
+				9122945C208161360085C63F /* Info.plist */,
+			);
+			path = BiocheckMovilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91229434208161350085C63F /* BiocheckMovil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9122945F208161360085C63F /* Build configuration list for PBXNativeTarget "BiocheckMovil" */;
+			buildPhases = (
+				A242BAEBBAC0686CB4C9F042 /* [CP] Check Pods Manifest.lock */,
+				91229431208161350085C63F /* Sources */,
+				91229432208161350085C63F /* Frameworks */,
+				91229433208161350085C63F /* Resources */,
+				181418F235F22700E63D62DF /* [CP] Embed Pods Frameworks */,
+				F33E5FED1CA04DF1BD999D63 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiocheckMovil;
+			productName = BiocheckMovil;
+			productReference = 91229435208161350085C63F /* BiocheckMovil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9122944A208161350085C63F /* BiocheckMovilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91229462208161360085C63F /* Build configuration list for PBXNativeTarget "BiocheckMovilTests" */;
+			buildPhases = (
+				76FF1D3A4216384D5C973C37 /* [CP] Check Pods Manifest.lock */,
+				91229447208161350085C63F /* Sources */,
+				91229448208161350085C63F /* Frameworks */,
+				91229449208161350085C63F /* Resources */,
+				47002A946BB153624B0A090D /* [CP] Embed Pods Frameworks */,
+				970F85C56F05A11F98BCC52A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9122944D208161350085C63F /* PBXTargetDependency */,
+			);
+			name = BiocheckMovilTests;
+			productName = BiocheckMovilTests;
+			productReference = 9122944B208161350085C63F /* BiocheckMovilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91229455208161350085C63F /* BiocheckMovilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91229465208161360085C63F /* Build configuration list for PBXNativeTarget "BiocheckMovilUITests" */;
+			buildPhases = (
+				ECB0AEB4473E761C5439772E /* [CP] Check Pods Manifest.lock */,
+				91229452208161350085C63F /* Sources */,
+				91229453208161350085C63F /* Frameworks */,
+				91229454208161350085C63F /* Resources */,
+				086F817A83EEB6F1F3F5E0DE /* [CP] Embed Pods Frameworks */,
+				D185CC8E3FF391A202271D27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91229458208161360085C63F /* PBXTargetDependency */,
+			);
+			name = BiocheckMovilUITests;
+			productName = BiocheckMovilUITests;
+			productReference = 91229456208161360085C63F /* BiocheckMovilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9122942D208161350085C63F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Arturo Avalos";
+				TargetAttributes = {
+					91229434208161350085C63F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9122944A208161350085C63F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91229434208161350085C63F;
+					};
+					91229455208161350085C63F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91229434208161350085C63F;
+					};
+				};
+			};
+			buildConfigurationList = 91229430208161350085C63F /* Build configuration list for PBXProject "BiocheckMovil" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9122942C208161350085C63F;
+			productRefGroup = 91229436208161350085C63F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91229434208161350085C63F /* BiocheckMovil */,
+				9122944A208161350085C63F /* BiocheckMovilTests */,
+				91229455208161350085C63F /* BiocheckMovilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91229433208161350085C63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91229445208161350085C63F /* LaunchScreen.storyboard in Resources */,
+				91229442208161350085C63F /* Assets.xcassets in Resources */,
+				9132723320B71A0800C006B7 /* Podfile in Resources */,
+				91229440208161350085C63F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91229449208161350085C63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91229454208161350085C63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		086F817A83EEB6F1F3F5E0DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiocheckMovilUITests/Pods-BiocheckMovilUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		181418F235F22700E63D62DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BiocheckMovil/Pods-BiocheckMovil-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AutoKeyboard/AutoKeyboard.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoKeyboard.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiocheckMovil/Pods-BiocheckMovil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47002A946BB153624B0A090D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiocheckMovilTests/Pods-BiocheckMovilTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76FF1D3A4216384D5C973C37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiocheckMovilTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		970F85C56F05A11F98BCC52A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiocheckMovilTests/Pods-BiocheckMovilTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A242BAEBBAC0686CB4C9F042 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiocheckMovil-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D185CC8E3FF391A202271D27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiocheckMovilUITests/Pods-BiocheckMovilUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECB0AEB4473E761C5439772E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiocheckMovilUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F33E5FED1CA04DF1BD999D63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiocheckMovil/Pods-BiocheckMovil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91229431208161350085C63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9122B2FD20850F7A00D58EC4 /* LoginViewController.swift in Sources */,
+				911FF2FB20879E3800115FC7 /* Rout.swift in Sources */,
+				9159DAB92118A9EE0071855C /* RepeatingTimer.swift in Sources */,
+				911FBC4220A62A4200B4A988 /* Check.swift in Sources */,
+				91229439208161350085C63F /* AppDelegate.swift in Sources */,
+				9124D3C520912C5300378362 /* MainViewController.swift in Sources */,
+				9124D3C32090DA2300378362 /* Login.swift in Sources */,
+				9125CE0F20AB5B8900DCA320 /* Media.swift in Sources */,
+				9121C1A920ACA75A006CB8C6 /* Request.swift in Sources */,
+				911FF2FD2087E98500115FC7 /* RoutViewController.swift in Sources */,
+				91E0D95220928979003BD12B /* Location.swift in Sources */,
+				91669DC92086AF99000887E1 /* RoutTableViewCell.swift in Sources */,
+				9126B1822088FE22001537A8 /* Record.swift in Sources */,
+				9126B17C2088FDE1001537A8 /* RecordTableViewController.swift in Sources */,
+				91E0D950209285B0003BD12B /* Employee.swift in Sources */,
+				9126B17E2088FE02001537A8 /* RecordTableViewCell.swift in Sources */,
+				91669DC72086AAF8000887E1 /* RoutsTableViewController.swift in Sources */,
+				9121C1A720ACA2FD006CB8C6 /* EnrollViewController.swift in Sources */,
+				916D9509208A9B31008D902E /* CheckViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91229447208161350085C63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91229450208161350085C63F /* BiocheckMovilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91229452208161350085C63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9122945B208161360085C63F /* BiocheckMovilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9122944D208161350085C63F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91229434208161350085C63F /* BiocheckMovil */;
+			targetProxy = 9122944C208161350085C63F /* PBXContainerItemProxy */;
+		};
+		91229458208161360085C63F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91229434208161350085C63F /* BiocheckMovil */;
+			targetProxy = 91229457208161360085C63F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9122943E208161350085C63F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9122943F208161350085C63F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91229443208161350085C63F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91229444208161350085C63F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9122945D208161360085C63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Biocheck Movil";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9122945E208161360085C63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Biocheck Movil";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91229460208161360085C63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF688948CCBB1646A00E55A /* Pods-BiocheckMovil.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LH26GYXGWG;
+				INFOPLIST_FILE = BiocheckMovil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biocheck.movil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91229461208161360085C63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3BAFEB233202750B82F159 /* Pods-BiocheckMovil.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LH26GYXGWG;
+				INFOPLIST_FILE = BiocheckMovil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biocheck.movil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91229463208161360085C63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DECF5A75B6AB93A163C190 /* Pods-BiocheckMovilTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TT5ZJTR7DK;
+				INFOPLIST_FILE = BiocheckMovilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marstom.BiocheckMovilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiocheckMovil.app/BiocheckMovil";
+			};
+			name = Debug;
+		};
+		91229464208161360085C63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5922AF74B1573CD1C5E17A4E /* Pods-BiocheckMovilTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TT5ZJTR7DK;
+				INFOPLIST_FILE = BiocheckMovilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marstom.BiocheckMovilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiocheckMovil.app/BiocheckMovil";
+			};
+			name = Release;
+		};
+		91229466208161360085C63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF3FC60AA2B6BAA87C65F37 /* Pods-BiocheckMovilUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TT5ZJTR7DK;
+				INFOPLIST_FILE = BiocheckMovilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marstom.BiocheckMovilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiocheckMovil;
+			};
+			name = Debug;
+		};
+		91229467208161360085C63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA2AC6ABD353399D7F625F9 /* Pods-BiocheckMovilUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TT5ZJTR7DK;
+				INFOPLIST_FILE = BiocheckMovilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marstom.BiocheckMovilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiocheckMovil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91229430208161350085C63F /* Build configuration list for PBXProject "BiocheckMovil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9122945D208161360085C63F /* Debug */,
+				9122945E208161360085C63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9122945F208161360085C63F /* Build configuration list for PBXNativeTarget "BiocheckMovil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91229460208161360085C63F /* Debug */,
+				91229461208161360085C63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91229462208161360085C63F /* Build configuration list for PBXNativeTarget "BiocheckMovilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91229463208161360085C63F /* Debug */,
+				91229464208161360085C63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91229465208161360085C63F /* Build configuration list for PBXNativeTarget "BiocheckMovilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91229466208161360085C63F /* Debug */,
+				91229467208161360085C63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9122942D208161350085C63F /* Project object */;
+}

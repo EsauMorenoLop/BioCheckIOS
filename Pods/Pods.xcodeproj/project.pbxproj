@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C67A6AEBF230630077650787CDEBDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		25FD213F647EAF084A0044DB5EAE374D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		35101A9EE0AFD0C62FBBFC22D00CBB38 /* AutoKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 687B4967CA2B7490F44B198979C61DE6 /* AutoKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		499A5A268F83D0D4C3796ACB6522D336 /* Pods-BiocheckMovilTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE71607286A6C88AF46348101FDBD86 /* Pods-BiocheckMovilTests-dummy.m */; };
+		670621DF1E19BAC09B350DC04E21054E /* AutoKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB8EC8C9C1A393A45989E928B4387D2 /* AutoKeyboard-dummy.m */; };
+		8A3397A3F1B0B46884F37157798FE68E /* Pods-BiocheckMovil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7388AFDB8D40F8743DB834CACE08274C /* Pods-BiocheckMovil-dummy.m */; };
+		8FFCEB619AB5264890FA5148E6BC0E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9A4F3D56B5C24F7DE66F92E8FACC509E /* Pods-BiocheckMovilTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E76F2B5DAA4905A9A407660CFFA7D39 /* Pods-BiocheckMovilTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B7D5238676D364E227E0A8FE6CF4ACB /* AutoKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB41C3072E079206277F17219AAF1559 /* AutoKeyboard.swift */; };
+		A9B11644041D43BE6590B3587E526BCD /* Pods-BiocheckMovilUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E300792F3063F82D03E5BB3B3CE13596 /* Pods-BiocheckMovilUITests-dummy.m */; };
+		B12DF048322DF7F5E6A14D25C7E8FD87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B7E263C9AA1990AB066C8BE589476EB5 /* Pods-BiocheckMovil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A5E6D0AF5547A7458AB20DE9D66535 /* Pods-BiocheckMovil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C147B9DE582D7F9CF1C5BCBB41C3760C /* Pods-BiocheckMovilUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 440B5BE6B2008C3F5F7D431EC0099CAF /* Pods-BiocheckMovilUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C36B90DCDD397FA2668C7C653D16F3B3 /* AutoKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E81891AC303E9CF9ECD964CE7215A149 /* AutoKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CD273FE8D023CD39483AE356FFE57F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36F8658296BF1CBE6DE36481D9A67BB9;
+			remoteInfo = AutoKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0179DA2AD085CF29BD4899DAB4DE112A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F1E14C6E9B2CB7843843B7B7E02148 /* Pods-BiocheckMovilUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BiocheckMovilUITests-frameworks.sh"; sourceTree = "<group>"; };
+		148C86D21D641BC75B16FF832A26F89F /* AutoKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AutoKeyboard.modulemap; sourceTree = "<group>"; };
+		1E76F2B5DAA4905A9A407660CFFA7D39 /* Pods-BiocheckMovilTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BiocheckMovilTests-umbrella.h"; sourceTree = "<group>"; };
+		245B5CA1AEAF11FC44881D61F77A5DB7 /* Pods-BiocheckMovilTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BiocheckMovilTests-resources.sh"; sourceTree = "<group>"; };
+		27C091590B5C7289D2E17EDBE363290A /* AutoKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoKeyboard.xcconfig; sourceTree = "<group>"; };
+		2C3165056194EF6CDFCE039F9899674A /* Pods-BiocheckMovil-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BiocheckMovil-resources.sh"; sourceTree = "<group>"; };
+		2C323E51D89F25B5530F147231884C22 /* Pods-BiocheckMovilTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BiocheckMovilTests.debug.xcconfig"; sourceTree = "<group>"; };
+		341A9382BB8DF17C94273C60F299EEFE /* Pods-BiocheckMovil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BiocheckMovil.debug.xcconfig"; sourceTree = "<group>"; };
+		343AD2B32ED83FF204B3B0A9EDF19203 /* Pods-BiocheckMovilUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BiocheckMovilUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3EB8EC8C9C1A393A45989E928B4387D2 /* AutoKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutoKeyboard-dummy.m"; sourceTree = "<group>"; };
+		4324D03A3D4B2E863D47BA9B8B9417D3 /* Pods-BiocheckMovilUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BiocheckMovilUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		440B5BE6B2008C3F5F7D431EC0099CAF /* Pods-BiocheckMovilUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BiocheckMovilUITests-umbrella.h"; sourceTree = "<group>"; };
+		6311860DB6996A8492D0F629731602C5 /* Pods_BiocheckMovilUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiocheckMovilUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		654E1A073FDA8B750757956CECC30D02 /* Pods_BiocheckMovil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiocheckMovil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66816B5FA1537880262DAC4BA00EC583 /* Pods-BiocheckMovilUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BiocheckMovilUITests-resources.sh"; sourceTree = "<group>"; };
+		66A5E6D0AF5547A7458AB20DE9D66535 /* Pods-BiocheckMovil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BiocheckMovil-umbrella.h"; sourceTree = "<group>"; };
+		687B4967CA2B7490F44B198979C61DE6 /* AutoKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoKeyboard.h; path = AutoKeyboard/AutoKeyboard/AutoKeyboard.h; sourceTree = "<group>"; };
+		7388AFDB8D40F8743DB834CACE08274C /* Pods-BiocheckMovil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BiocheckMovil-dummy.m"; sourceTree = "<group>"; };
+		7B8920C778D6CBD21FE972143EB51804 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE71607286A6C88AF46348101FDBD86 /* Pods-BiocheckMovilTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BiocheckMovilTests-dummy.m"; sourceTree = "<group>"; };
+		7E932CE76EE8C801A8FCCF02DAEADAE3 /* Pods-BiocheckMovil-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BiocheckMovil-acknowledgements.plist"; sourceTree = "<group>"; };
+		9061A72C402B87666C8732E7199F30BD /* Pods-BiocheckMovilUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BiocheckMovilUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99EEAC085AB8F04FA4A3A7C3B8B36F7E /* Pods-BiocheckMovilUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BiocheckMovilUITests.modulemap"; sourceTree = "<group>"; };
+		9BB1B508D46CEC4B93ABCE92C080AF16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49657C70A1FDEEAC900A1EB4B53729A /* Pods-BiocheckMovil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BiocheckMovil.release.xcconfig"; sourceTree = "<group>"; };
+		B8C883026C2057983CBD1C4D5CC9D172 /* Pods-BiocheckMovilTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BiocheckMovilTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB09B9B9D10FBB1BAF28BC8A4190D7D7 /* AutoKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8FDC6C5881386E42420D690BA1924E /* Pods-BiocheckMovil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BiocheckMovil.modulemap"; sourceTree = "<group>"; };
+		BDF0C1F47148BCC7C648D1F7B4EA08FC /* Pods-BiocheckMovilTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BiocheckMovilTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEEA6C12051E51159DD692351AB3348E /* Pods-BiocheckMovilTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BiocheckMovilTests-frameworks.sh"; sourceTree = "<group>"; };
+		BFE49F4DE2E05E3E3BB05E2B87024A7C /* Pods-BiocheckMovilTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BiocheckMovilTests.modulemap"; sourceTree = "<group>"; };
+		C0E2E811548C6C8FE496798D953D504D /* AutoKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		C53B5BE026B9F73C76437B1E1880AD06 /* Pods_BiocheckMovilTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiocheckMovilTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C872D6797E129C2AE8A95BA91EF99605 /* Pods-BiocheckMovil-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BiocheckMovil-frameworks.sh"; sourceTree = "<group>"; };
+		CE383B95EAC046EA71A45016E99B7905 /* Pods-BiocheckMovil-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BiocheckMovil-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E300792F3063F82D03E5BB3B3CE13596 /* Pods-BiocheckMovilUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BiocheckMovilUITests-dummy.m"; sourceTree = "<group>"; };
+		E66D8C7374F8D7DC8235295603C20D54 /* Pods-BiocheckMovilUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BiocheckMovilUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E81891AC303E9CF9ECD964CE7215A149 /* AutoKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		E9D7982CFA71FD3EA6D25DE73CB8B929 /* Pods-BiocheckMovilTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BiocheckMovilTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB41C3072E079206277F17219AAF1559 /* AutoKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoKeyboard.swift; path = AutoKeyboard/AutoKeyboard/AutoKeyboard.swift; sourceTree = "<group>"; };
+		F1A45D3FDBA054226E30CB6AEF028E76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71985169C4DD0F161DCE56E267E3BE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12DF048322DF7F5E6A14D25C7E8FD87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE436F3F6B92D15C4EBAD44B095B522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C67A6AEBF230630077650787CDEBDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FECC81B76C3ADB5DB1D07E77192101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FD213F647EAF084A0044DB5EAE374D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F310D3FAF61336729FBF917E7C613759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFCEB619AB5264890FA5148E6BC0E1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D0BB9E404762CEEDBC8AD4D52170F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB09B9B9D10FBB1BAF28BC8A4190D7D7 /* AutoKeyboard.framework */,
+				654E1A073FDA8B750757956CECC30D02 /* Pods_BiocheckMovil.framework */,
+				C53B5BE026B9F73C76437B1E1880AD06 /* Pods_BiocheckMovilTests.framework */,
+				6311860DB6996A8492D0F629731602C5 /* Pods_BiocheckMovilUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E56704B194362ECD52A0B341422F72C /* AutoKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				687B4967CA2B7490F44B198979C61DE6 /* AutoKeyboard.h */,
+				EB41C3072E079206277F17219AAF1559 /* AutoKeyboard.swift */,
+				DCC339F142A66732AF6D028086CB14F6 /* Support Files */,
+			);
+			path = AutoKeyboard;
+			sourceTree = "<group>";
+		};
+		1766477F83F36D48F1C3AE5F53CD7F91 /* Pods-BiocheckMovil */ = {
+			isa = PBXGroup;
+			children = (
+				F1A45D3FDBA054226E30CB6AEF028E76 /* Info.plist */,
+				BD8FDC6C5881386E42420D690BA1924E /* Pods-BiocheckMovil.modulemap */,
+				CE383B95EAC046EA71A45016E99B7905 /* Pods-BiocheckMovil-acknowledgements.markdown */,
+				7E932CE76EE8C801A8FCCF02DAEADAE3 /* Pods-BiocheckMovil-acknowledgements.plist */,
+				7388AFDB8D40F8743DB834CACE08274C /* Pods-BiocheckMovil-dummy.m */,
+				C872D6797E129C2AE8A95BA91EF99605 /* Pods-BiocheckMovil-frameworks.sh */,
+				2C3165056194EF6CDFCE039F9899674A /* Pods-BiocheckMovil-resources.sh */,
+				66A5E6D0AF5547A7458AB20DE9D66535 /* Pods-BiocheckMovil-umbrella.h */,
+				341A9382BB8DF17C94273C60F299EEFE /* Pods-BiocheckMovil.debug.xcconfig */,
+				B49657C70A1FDEEAC900A1EB4B53729A /* Pods-BiocheckMovil.release.xcconfig */,
+			);
+			name = "Pods-BiocheckMovil";
+			path = "Target Support Files/Pods-BiocheckMovil";
+			sourceTree = "<group>";
+		};
+		218910C919D89F8C6D9785BCD12C8E79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E56704B194362ECD52A0B341422F72C /* AutoKeyboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C3624BBC84C445D96DA4698C9B19FE1 /* Pods-BiocheckMovilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BB1B508D46CEC4B93ABCE92C080AF16 /* Info.plist */,
+				99EEAC085AB8F04FA4A3A7C3B8B36F7E /* Pods-BiocheckMovilUITests.modulemap */,
+				4324D03A3D4B2E863D47BA9B8B9417D3 /* Pods-BiocheckMovilUITests-acknowledgements.markdown */,
+				E66D8C7374F8D7DC8235295603C20D54 /* Pods-BiocheckMovilUITests-acknowledgements.plist */,
+				E300792F3063F82D03E5BB3B3CE13596 /* Pods-BiocheckMovilUITests-dummy.m */,
+				07F1E14C6E9B2CB7843843B7B7E02148 /* Pods-BiocheckMovilUITests-frameworks.sh */,
+				66816B5FA1537880262DAC4BA00EC583 /* Pods-BiocheckMovilUITests-resources.sh */,
+				440B5BE6B2008C3F5F7D431EC0099CAF /* Pods-BiocheckMovilUITests-umbrella.h */,
+				9061A72C402B87666C8732E7199F30BD /* Pods-BiocheckMovilUITests.debug.xcconfig */,
+				343AD2B32ED83FF204B3B0A9EDF19203 /* Pods-BiocheckMovilUITests.release.xcconfig */,
+			);
+			name = "Pods-BiocheckMovilUITests";
+			path = "Target Support Files/Pods-BiocheckMovilUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				218910C919D89F8C6D9785BCD12C8E79 /* Pods */,
+				03D0BB9E404762CEEDBC8AD4D52170F4 /* Products */,
+				95096F16559C462BACAFE4878D75245D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95096F16559C462BACAFE4878D75245D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1766477F83F36D48F1C3AE5F53CD7F91 /* Pods-BiocheckMovil */,
+				F2A5E5493DB5DF85814EB84E86AA3588 /* Pods-BiocheckMovilTests */,
+				2C3624BBC84C445D96DA4698C9B19FE1 /* Pods-BiocheckMovilUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DCC339F142A66732AF6D028086CB14F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				148C86D21D641BC75B16FF832A26F89F /* AutoKeyboard.modulemap */,
+				27C091590B5C7289D2E17EDBE363290A /* AutoKeyboard.xcconfig */,
+				3EB8EC8C9C1A393A45989E928B4387D2 /* AutoKeyboard-dummy.m */,
+				C0E2E811548C6C8FE496798D953D504D /* AutoKeyboard-prefix.pch */,
+				E81891AC303E9CF9ECD964CE7215A149 /* AutoKeyboard-umbrella.h */,
+				7B8920C778D6CBD21FE972143EB51804 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AutoKeyboard";
+			sourceTree = "<group>";
+		};
+		F2A5E5493DB5DF85814EB84E86AA3588 /* Pods-BiocheckMovilTests */ = {
+			isa = PBXGroup;
+			children = (
+				0179DA2AD085CF29BD4899DAB4DE112A /* Info.plist */,
+				BFE49F4DE2E05E3E3BB05E2B87024A7C /* Pods-BiocheckMovilTests.modulemap */,
+				BDF0C1F47148BCC7C648D1F7B4EA08FC /* Pods-BiocheckMovilTests-acknowledgements.markdown */,
+				B8C883026C2057983CBD1C4D5CC9D172 /* Pods-BiocheckMovilTests-acknowledgements.plist */,
+				7DE71607286A6C88AF46348101FDBD86 /* Pods-BiocheckMovilTests-dummy.m */,
+				BEEA6C12051E51159DD692351AB3348E /* Pods-BiocheckMovilTests-frameworks.sh */,
+				245B5CA1AEAF11FC44881D61F77A5DB7 /* Pods-BiocheckMovilTests-resources.sh */,
+				1E76F2B5DAA4905A9A407660CFFA7D39 /* Pods-BiocheckMovilTests-umbrella.h */,
+				2C323E51D89F25B5530F147231884C22 /* Pods-BiocheckMovilTests.debug.xcconfig */,
+				E9D7982CFA71FD3EA6D25DE73CB8B929 /* Pods-BiocheckMovilTests.release.xcconfig */,
+			);
+			name = "Pods-BiocheckMovilTests";
+			path = "Target Support Files/Pods-BiocheckMovilTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33348A0AD858569C0E067527D3841384 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C147B9DE582D7F9CF1C5BCBB41C3760C /* Pods-BiocheckMovilUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373EE98EC3ABBD4A873FFE9CB6FA2B55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36B90DCDD397FA2668C7C653D16F3B3 /* AutoKeyboard-umbrella.h in Headers */,
+				35101A9EE0AFD0C62FBBFC22D00CBB38 /* AutoKeyboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FED7F42C34AF08E5AD77FE041DB71E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E263C9AA1990AB066C8BE589476EB5 /* Pods-BiocheckMovil-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40814EB59844F1A13EFCB5578F10915C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4F3D56B5C24F7DE66F92E8FACC509E /* Pods-BiocheckMovilTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36F8658296BF1CBE6DE36481D9A67BB9 /* AutoKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1A119509B0EDD0491FABBAB948EAFE /* Build configuration list for PBXNativeTarget "AutoKeyboard" */;
+			buildPhases = (
+				5C4103A681C0FC880ABBE06FDFDA8212 /* Sources */,
+				F310D3FAF61336729FBF917E7C613759 /* Frameworks */,
+				373EE98EC3ABBD4A873FFE9CB6FA2B55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoKeyboard;
+			productName = AutoKeyboard;
+			productReference = BB09B9B9D10FBB1BAF28BC8A4190D7D7 /* AutoKeyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE2CD7A07CD2CE57954734BF8F942181 /* Pods-BiocheckMovilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD063B2C9A17D950183DF8AEEDE2CB9 /* Build configuration list for PBXNativeTarget "Pods-BiocheckMovilTests" */;
+			buildPhases = (
+				6DDE56FD4663F15CCAE40D836F4FBB4A /* Sources */,
+				7BE436F3F6B92D15C4EBAD44B095B522 /* Frameworks */,
+				40814EB59844F1A13EFCB5578F10915C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BiocheckMovilTests";
+			productName = "Pods-BiocheckMovilTests";
+			productReference = C53B5BE026B9F73C76437B1E1880AD06 /* Pods_BiocheckMovilTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E54EAF66E5404C8A255E526343861CB4 /* Pods-BiocheckMovilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278299D94EDB54963D843043B4E3E123 /* Build configuration list for PBXNativeTarget "Pods-BiocheckMovilUITests" */;
+			buildPhases = (
+				BFFF2A796C8BC21C9E346AECCDCD6329 /* Sources */,
+				71985169C4DD0F161DCE56E267E3BE1A /* Frameworks */,
+				33348A0AD858569C0E067527D3841384 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BiocheckMovilUITests";
+			productName = "Pods-BiocheckMovilUITests";
+			productReference = 6311860DB6996A8492D0F629731602C5 /* Pods_BiocheckMovilUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F535C057FF8BDB7C7407E91E1F902B5D /* Pods-BiocheckMovil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C648007FBE399BD05934C3FBE126AE7A /* Build configuration list for PBXNativeTarget "Pods-BiocheckMovil" */;
+			buildPhases = (
+				DDC44057476CEA81CB2720566167D015 /* Sources */,
+				E1FECC81B76C3ADB5DB1D07E77192101 /* Frameworks */,
+				38FED7F42C34AF08E5AD77FE041DB71E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13A8B7A6739731E054EC5F63AD697100 /* PBXTargetDependency */,
+			);
+			name = "Pods-BiocheckMovil";
+			productName = "Pods-BiocheckMovil";
+			productReference = 654E1A073FDA8B750757956CECC30D02 /* Pods_BiocheckMovil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 03D0BB9E404762CEEDBC8AD4D52170F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36F8658296BF1CBE6DE36481D9A67BB9 /* AutoKeyboard */,
+				F535C057FF8BDB7C7407E91E1F902B5D /* Pods-BiocheckMovil */,
+				DE2CD7A07CD2CE57954734BF8F942181 /* Pods-BiocheckMovilTests */,
+				E54EAF66E5404C8A255E526343861CB4 /* Pods-BiocheckMovilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C4103A681C0FC880ABBE06FDFDA8212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670621DF1E19BAC09B350DC04E21054E /* AutoKeyboard-dummy.m in Sources */,
+				9B7D5238676D364E227E0A8FE6CF4ACB /* AutoKeyboard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDE56FD4663F15CCAE40D836F4FBB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499A5A268F83D0D4C3796ACB6522D336 /* Pods-BiocheckMovilTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFF2A796C8BC21C9E346AECCDCD6329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B11644041D43BE6590B3587E526BCD /* Pods-BiocheckMovilUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC44057476CEA81CB2720566167D015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3397A3F1B0B46884F37157798FE68E /* Pods-BiocheckMovil-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13A8B7A6739731E054EC5F63AD697100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AutoKeyboard;
+			target = 36F8658296BF1CBE6DE36481D9A67BB9 /* AutoKeyboard */;
+			targetProxy = 6CD273FE8D023CD39483AE356FFE57F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		244A472E3A40E3F881C44A1F34E80B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C091590B5C7289D2E17EDBE363290A /* AutoKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoKeyboard/AutoKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoKeyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutoKeyboard/AutoKeyboard.modulemap";
+				PRODUCT_NAME = AutoKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24B83E70A11A4E48C5AD7D34E1CF19D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9061A72C402B87666C8732E7199F30BD /* Pods-BiocheckMovilUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BiocheckMovilUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BiocheckMovilUITests/Pods-BiocheckMovilUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BiocheckMovilUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49F67EF751531D9A8CA0C07F462A0351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341A9382BB8DF17C94273C60F299EEFE /* Pods-BiocheckMovil.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BiocheckMovil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BiocheckMovil/Pods-BiocheckMovil.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BiocheckMovil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77E46FB6A929400E6060ECC69898DEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D7982CFA71FD3EA6D25DE73CB8B929 /* Pods-BiocheckMovilTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BiocheckMovilTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BiocheckMovilTests/Pods-BiocheckMovilTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BiocheckMovilTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89F6C232656A826A43E129C4F2D778B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C323E51D89F25B5530F147231884C22 /* Pods-BiocheckMovilTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BiocheckMovilTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BiocheckMovilTests/Pods-BiocheckMovilTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BiocheckMovilTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A031D0A0F11E011F0E2ACB13D1F75AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343AD2B32ED83FF204B3B0A9EDF19203 /* Pods-BiocheckMovilUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BiocheckMovilUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BiocheckMovilUITests/Pods-BiocheckMovilUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BiocheckMovilUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A20B0BDFC4838E55DCAD094ED2792393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7F9B388CC4DBE8C5E5FD142C84FFB1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C091590B5C7289D2E17EDBE363290A /* AutoKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoKeyboard/AutoKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoKeyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutoKeyboard/AutoKeyboard.modulemap";
+				PRODUCT_NAME = AutoKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE9C1EAFF274B9E806AEECDCDB09872B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49657C70A1FDEEAC900A1EB4B53729A /* Pods-BiocheckMovil.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BiocheckMovil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BiocheckMovil/Pods-BiocheckMovil.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BiocheckMovil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278299D94EDB54963D843043B4E3E123 /* Build configuration list for PBXNativeTarget "Pods-BiocheckMovilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B83E70A11A4E48C5AD7D34E1CF19D3 /* Debug */,
+				A031D0A0F11E011F0E2ACB13D1F75AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */,
+				A20B0BDFC4838E55DCAD094ED2792393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD063B2C9A17D950183DF8AEEDE2CB9 /* Build configuration list for PBXNativeTarget "Pods-BiocheckMovilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F6C232656A826A43E129C4F2D778B9 /* Debug */,
+				77E46FB6A929400E6060ECC69898DEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1A119509B0EDD0491FABBAB948EAFE /* Build configuration list for PBXNativeTarget "AutoKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244A472E3A40E3F881C44A1F34E80B89 /* Debug */,
+				B7F9B388CC4DBE8C5E5FD142C84FFB1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C648007FBE399BD05934C3FBE126AE7A /* Build configuration list for PBXNativeTarget "Pods-BiocheckMovil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F67EF751531D9A8CA0C07F462A0351 /* Debug */,
+				DE9C1EAFF274B9E806AEECDCDB09872B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

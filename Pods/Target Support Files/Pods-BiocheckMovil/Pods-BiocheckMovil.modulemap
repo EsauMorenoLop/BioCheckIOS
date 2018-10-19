@@ -1,0 +1,6 @@
+framework module Pods_BiocheckMovil {
+  umbrella header "Pods-BiocheckMovil-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AutoKeyboard {
+  umbrella header "AutoKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

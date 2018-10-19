@@ -1,0 +1,12 @@
+PODS:
+  - AutoKeyboard (1.0.6)
+
+DEPENDENCIES:
+  - AutoKeyboard
+
+SPEC CHECKSUMS:
+  AutoKeyboard: 33b89b602f41a7fb43ff96b2e28a663bd277e8bf
+
+PODFILE CHECKSUM: cc24584de03547deaec9ef90c7e9f897f650a6a2
+
+COCOAPODS: 1.4.0
